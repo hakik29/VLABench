@@ -140,7 +140,7 @@ Before evaluate your finetuned OpenVLA, please compute the norm_stat on your dat
 
 Run the evaluation scripts by
 ```sh
-python scirpts/evaluate_policy.py --n-sample 20 --model openvla --model_ckpt xx --lora_ckpt xx --eval_track track_1_in_distribution --tasks task1, task2 ...
+python scripts/evaluate_policy.py --n-sample 20 --model openvla --model_ckpt xx --lora_ckpt xx --eval_track track_1_in_distribution --tasks task1, task2 ...
 ```
 
 **Multi-GPU Accelerated Evaluation**
